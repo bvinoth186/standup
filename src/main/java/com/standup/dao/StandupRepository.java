@@ -12,5 +12,7 @@ public interface StandupRepository extends MongoRepository<Standup, String>
     public List<Standup> findByName(String name);
     
     public List<Standup> findByDate(String date);
+    
+    public List<Standup> findByNameAndDate(String name, String date);
 
 }

@@ -17,14 +17,11 @@ public class Standup
     private List<String> tomorrow;
     private List<String> roadBlocks;
     
-    public Standup(String name, String date, List<String> today, List<String> tomorrow, List<String> roadBlocks)
+    public Standup(String name, String date)
     {
         super();
         this.name = name;
         this.date = date;
-        this.today = today;
-        this.tomorrow = tomorrow;
-        this.roadBlocks = roadBlocks;
     }
 
     public String getId()
